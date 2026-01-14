@@ -324,7 +324,7 @@ This document tracks the core mods planned for Meldworks. Items are organized by
     *   [Modrinth](https://modrinth.com/mod/sound-physics-remastered)
     *   *Role:* **Auditory Immersion.** Reverb and occlusion in factories/caves. (Configured for performance).
 
-*   **EMI** (Efficient Magic Interface)
+*   **EMI**
     *   [Modrinth](https://modrinth.com/mod/emi)
     *   *Role:* **The Recipe Tree.** Essential for visualizing complex petrochemical processing chains.
 
@@ -363,6 +363,18 @@ This document tracks the core mods planned for Meldworks. Items are organized by
 *   **Searchables**
     *   [Modrinth](https://modrinth.com/mod/searchables)
     *   *Role:* **UI Helper.** Adds search bars to chests/settings.
+
+*   **Jade**
+    *   [Modrinth](https://modrinth.com/mod/jade)
+    *   *Role:* **HUD Info.** Shows block data, harvestability, and fluid tank contents (WAILA).
+
+*   **Controlling**
+    *   [Modrinth](https://modrinth.com/mod/controlling)
+    *   *Role:* **Keybind Manager.** Essential for managing the massive amount of keybinds in this pack.
+
+*   **Mouse Tweaks**
+    *   [Modrinth](https://modrinth.com/mod/mouse-tweaks)
+    *   *Role:* **Inventory Logic.** Drag-to-craft and scroll-wheel sorting.
 
 
 **11. Experimental / To-Test**

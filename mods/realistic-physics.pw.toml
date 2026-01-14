@@ -1,0 +1,13 @@
+name = "Realistic Physics"
+filename = "realisticphysics-1.20.1-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/SMLKjRsR/versions/HmjhjUcS/realisticphysics-1.20.1-1.0.1.jar"
+hash-format = "sha512"
+hash = "63af7d96e8fae39ceff522c8d720beeece3b6332a81d96b85cea88645820eb976be7b5b973a56bc4c49675223215d5e44ca2ae0d94c1c3d1e61553ad6815e45d"
+
+[update]
+[update.modrinth]
+mod-id = "SMLKjRsR"
+version = "HmjhjUcS"

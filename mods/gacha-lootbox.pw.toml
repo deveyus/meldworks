@@ -1,0 +1,13 @@
+name = "Gacha!! Lootbox"
+filename = "gacha-2.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "030bd8610a2e8017597623dff0706e8a0d77fb77"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5240461
+project-id = 990223

@@ -1,0 +1,13 @@
+name = "Bosses'Rise"
+filename = "bossesrise-1.20.1-forge-1.0.9.2b.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/q2bV1Tm1/versions/pwPCK6tY/bossesrise-1.20.1-forge-1.0.9.2b.jar"
+hash-format = "sha512"
+hash = "e98a8fe209a94b5b0a1b3da7456532aa6a53a25af4ea66694d56fd7645cb299cb4c8052b565b3310489aa6419313a44b1cd043b80446a6093565cf77c5d7b61b"
+
+[update]
+[update.modrinth]
+mod-id = "q2bV1Tm1"
+version = "pwPCK6tY"

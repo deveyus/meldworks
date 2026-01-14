@@ -1,0 +1,13 @@
+name = "Realistic Block Physics"
+filename = "rbp-1.20.1-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/45TL8yoG/versions/WyW2Cvvp/rbp-1.20.1-1.0.0.jar"
+hash-format = "sha512"
+hash = "7f92454b19d4541ad2e12a710380e11c82f1b896c5603bf78e054dd0e0b547f03f7b6ad6733c95bddc2c49c5d467842680b611c681aa0631fe6f47447f8d8fcc"
+
+[update]
+[update.modrinth]
+mod-id = "45TL8yoG"
+version = "WyW2Cvvp"
