@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = "README.md"
+hash = "577709ba4465b4b7670e3009bc41fb32b7bc8e862e5cfe05a23f3c636ea6371c"
+
+[[files]]
+file = "docs/initial_modlist.md"
+hash = "e78c16064dcca3efa91daf1ca0ba843576b558463af4fb97e4fc229377c8552b"
+
+[[files]]
 file = "mods/advanced-chimneys.pw.toml"
 hash = "bb810a39274fd7026946b8c4d871d7ac1485929f6a3b479241463cfc6087c58c"
 metafile = true
@@ -172,7 +180,7 @@ metafile = true
 
 [[files]]
 file = "mods/fusion-connected-textures.pw.toml"
-hash = "64426fd63554594b3d2d2390cae5183309bb1ac2116db0baa77f1957d3eee4ac"
+hash = "c569f12a45ab7ee921fed9c5fc2409ce6eab8b8d0da48fa8143e6c9a38072ab9"
 metafile = true
 
 [[files]]
@@ -282,7 +290,7 @@ metafile = true
 
 [[files]]
 file = "mods/lightmans-currency.pw.toml"
-hash = "7a2bb389af4f66d201569f24174cddbe7cc06d20bcd3d3245abf54da1ba32e64"
+hash = "92a32c9db309964cf46cb180724fb5e0e8aea63cb2436ac9de9f29ba5d4d6a3f"
 metafile = true
 
 [[files]]
@@ -322,7 +330,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "c4feb088c602a4bb777057714ae94d29919d2464db49baf37c4b86c67592a00e"
+hash = "32ebc8e9c6d09c9f460f0f2815a6e5d5d68c73c75eb912b474c210689a9809f1"
 metafile = true
 
 [[files]]
@@ -368,6 +376,11 @@ metafile = true
 [[files]]
 file = "mods/pollution-of-the-realms.pw.toml"
 hash = "f14d7cd66fa2371756ea79f868581f933204e6e902f9df8a28865546a0bb590f"
+metafile = true
+
+[[files]]
+file = "mods/probejs.pw.toml"
+hash = "2a3a4d1558f48a49746b266248676f7d28b7b8b9d45f36645e41a8806028dce5"
 metafile = true
 
 [[files]]
