@@ -1,1 +1,18 @@
-.packwiz/
+# Ignore compiled JavaScript output (source of truth is TypeScript in src/)
+kubejs/**/*.js
+kubejs/**/*.js.map
+
+# Node modules
+node_modules/
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Build outputs
+dist/
+
+# Packwiz installer bootstrap (downloaded during build)
+.packwiz-installer-bootstrap.jar
+
+# ProbeJS generated types are tracked for convenience
+!kubejs/probe/
