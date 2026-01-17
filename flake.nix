@@ -23,6 +23,8 @@
             
             # Build tools
             jq  # JSON manipulation for build scripts
+            unzip
+            zip
             
             # Packwiz for mod management
             packwiz
