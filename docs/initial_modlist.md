@@ -35,6 +35,10 @@ This document tracks the core mods planned for Meldworks. Items are organized by
     *   [Modrinth](https://modrinth.com/mod/rhino)
     *   *Role:* JavaScript parser dependency for KubeJS.
 
+*   **ProbeJS**
+    *   [Modrinth](https://modrinth.com/mod/probejs)
+    *   *Role:* Development tool. Generates TypeScript type definitions for all registered game objects, enabling IDE autocomplete and type checking for KubeJS scripts.
+
 
 **2. World & Environment**
 

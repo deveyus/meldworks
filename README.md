@@ -13,4 +13,5 @@ Meldworks focuses on a minimal yet deeply integrated simulation experience. Draw
 ## Documentation
 Further technical details and progress logs can be found in the [`/docs`](./docs) directory.
 - [Initial Modlist](./docs/initial_modlist.md)
+- [Design Tenets](./docs/design_tenets.md)
 
