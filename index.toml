@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".vscode/launch.json"
+hash = "1d023c6d9699fb7169511d7b644d135037165e5912c5823118bf0dd090fa1006"
+
+[[files]]
+file = ".vscode/tasks.json"
+hash = "8af7d1de48ddd646775971c5b1c520d5ae24009def1f18b9e05c0a63f57fab77"
+
+[[files]]
 file = "README.md"
 hash = "ae129cd20f0aa878583bc74fb79edfbd5b5a6151f1545843a63c382787c086e4"
 
@@ -17,12 +25,16 @@ file = "config/modernfix-mixins.properties"
 hash = "bfd33f2598ecbac419c37cb3208babc8a12accfe884e24b520ae24b37992d023"
 
 [[files]]
+file = "config/supplementaries-client.toml"
+hash = "8ed88e98c4775184554356ec2ae1968a65faeb2e0d7cd85107fdc2fb975010a9"
+
+[[files]]
 file = "docs/design_tenets.md"
 hash = "226147f1495b8536cd7b9e720f8141e0cfd6d611c028f243dcdc29dcc5abf399"
 
 [[files]]
 file = "docs/getting_started.md"
-hash = "4a4227fb90e80d1a652553b3e02d868a1709f9c02ac52558503c59fb72c2e041"
+hash = "36c0626d497d6e89d844acc18586ecbb9af5a4762fc4992cbf36c736b401d57a"
 
 [[files]]
 file = "docs/initial_modlist.md"
@@ -34,15 +46,11 @@ hash = "a4c4555ce52c55525102bef3e0833fb18c6c9223443776c19fca9bcf200c004f"
 
 [[files]]
 file = "kubejs/client_scripts/tef_tooltips.js"
-hash = "3b5be1a71c8003ebc11f37b27af669ef7d678b92202626f673016b5661001b0a"
+hash = "a3efcd17c2c60adec37730ba0104d4dc6e3e87b0041f354a935a2700a43811f5"
 
 [[files]]
 file = "kubejs/server_scripts/example.js"
-hash = "69958f22b341b0c22362d98dc2cabb9c38261ad496696135c002fdd7c2220c2a"
-
-[[files]]
-file = "kubejs/server_scripts/tef_tooltips.js"
-hash = "3b5be1a71c8003ebc11f37b27af669ef7d678b92202626f673016b5661001b0a"
+hash = "54752631759d5725cfaa4a8cf6f3daad97d01fdb27144b07ad03f061818ffcf1"
 
 [[files]]
 file = "kubejs/startup_scripts/tef_core.js"
@@ -587,3 +595,7 @@ metafile = true
 file = "mods/xaeros-world-map.pw.toml"
 hash = "c610e4f3a315259f44c6c2ce05503e93c7525a43a21d13f0e0661062cb82bede"
 metafile = true
+
+[[files]]
+file = "options.txt"
+hash = "805e9210ff6a60bdeac90fa01f98460e20de654b1365c68887e8a1c946821014"
