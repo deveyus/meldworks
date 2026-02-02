@@ -71,4 +71,25 @@ This copies the generated `.d.ts` files from your Prism instance into `kubejs/pr
 | `npm run watch` | Watch for file changes and auto-compile (recommended). |
 | `npm run clean` | Remove all generated `.js` files in `kubejs/`. |
 | `packwiz refresh` | Update the modpack index after adding/removing files. |
-| `npm run build:pack` | Run the full build pipeline to create a `.mrpack`. |
+| `npm run build:pack` | Run the full build pipeline to create a `.zip`. |
+
+---
+
+## 💻 Integrated VS Code Workflow
+
+For the best experience, use the built-in VS Code integrations to run common tasks without touching the terminal.
+
+### 🕹️ Run and Debug Sidebar (One-Click)
+1.  Click the **Run and Debug** icon (`Ctrl+Shift+D`) on the left sidebar.
+2.  Use the dropdown menu at the top to select:
+    - **Build Modpack (TS)**: Compiles your TypeScript.
+    - **Sync ProbeJS Types**: Downloads types from your latest Prism instance.
+    - **Release Build (.zip)**: Exports the final modpack to `dist/`.
+3.  Click the green **Play** button.
+
+### ⚡ Shortcuts & Tasks
+- **Default Build**: Press `Ctrl+Shift+B` to instantly trigger the TypeScript compiler.
+- **Task List**: Press `Ctrl+Shift+P` -> `Run Task` to see all available commands in a list.
+
+> [!NOTE]
+> These commands automatically handle the **Nix environment** wrapper. You don't need to manually run `nix develop` if you use these UI shortcuts.
