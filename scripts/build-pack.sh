@@ -13,6 +13,7 @@ PACKWIZ_INDEX="modrinth.index.json"
 
 # Colors for output
 GREEN='\033[0;32m'
+BRIGHT_GREEN='\033[1;32m'
 BLUE='\033[0;34m'
 YELLOW='\033[1;33m'
 RED='\033[0;31m'
@@ -79,12 +80,12 @@ cd "${TEMP_DIR}"
 zip -rujq "${FINAL_PATH}" "overrides/packwiz-installer-bootstrap.jar"
 cd "${ROOT_DIR}"
 
-echo -e "${GREEN}✅ Build complete: dist/${FINAL_FILENAME}${NC}"
+echo -e "${GREEN}✅ Build complete: dist/${BRIGHT_GREEN}${FINAL_FILENAME}${NC}"
 echo ""
 echo "Follow the release instructions in docs/release.md to publish."
 echo ""
 echo "To install in Prism Launcher:"
 echo "  1. Open Prism Launcher"
 echo "  2. Add Instance → Import from zip"
-echo "  3. Select dist/${FINAL_FILENAME}"
+echo "  3. Select dist/${BRIGHT_GREEN}${FINAL_FILENAME}${NC}"
 echo "  4. The pack will auto-update from GitHub Pages on launch"
