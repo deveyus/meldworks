@@ -2,11 +2,51 @@ hash-format = "sha256"
 
 [[files]]
 file = "README.md"
-hash = "577709ba4465b4b7670e3009bc41fb32b7bc8e862e5cfe05a23f3c636ea6371c"
+hash = "ae129cd20f0aa878583bc74fb79edfbd5b5a6151f1545843a63c382787c086e4"
+
+[[files]]
+file = "config/lightmanscurrency-common.txt"
+hash = "5895541d5c8bb98ae4bc701983108d135649492efd675d4fd91d43cc47f9fb68"
+
+[[files]]
+file = "config/lightmanscurrency-server.txt"
+hash = "7fce32f4ef2c39280642691a34a6f17dfeb262eecbb96f64bd998a68106bc926"
+
+[[files]]
+file = "config/modernfix-mixins.properties"
+hash = "bfd33f2598ecbac419c37cb3208babc8a12accfe884e24b520ae24b37992d023"
+
+[[files]]
+file = "docs/design_tenets.md"
+hash = "226147f1495b8536cd7b9e720f8141e0cfd6d611c028f243dcdc29dcc5abf399"
+
+[[files]]
+file = "docs/getting_started.md"
+hash = "4a4227fb90e80d1a652553b3e02d868a1709f9c02ac52558503c59fb72c2e041"
 
 [[files]]
 file = "docs/initial_modlist.md"
-hash = "e78c16064dcca3efa91daf1ca0ba843576b558463af4fb97e4fc229377c8552b"
+hash = "e0ec515a5e89a96c63ac5d73087753aa0724074bafe79f614a5a69ead4cd2e83"
+
+[[files]]
+file = "docs/pipeline_and_releases.md"
+hash = "a4c4555ce52c55525102bef3e0833fb18c6c9223443776c19fca9bcf200c004f"
+
+[[files]]
+file = "kubejs/client_scripts/tef_tooltips.js"
+hash = "3b5be1a71c8003ebc11f37b27af669ef7d678b92202626f673016b5661001b0a"
+
+[[files]]
+file = "kubejs/server_scripts/example.js"
+hash = "69958f22b341b0c22362d98dc2cabb9c38261ad496696135c002fdd7c2220c2a"
+
+[[files]]
+file = "kubejs/server_scripts/tef_tooltips.js"
+hash = "3b5be1a71c8003ebc11f37b27af669ef7d678b92202626f673016b5661001b0a"
+
+[[files]]
+file = "kubejs/startup_scripts/tef_core.js"
+hash = "af29bec0585a99209f98938c4d251787896e18cc09ee0103ed95d65f7d87ea5a"
 
 [[files]]
 file = "mods/advanced-chimneys.pw.toml"
@@ -239,11 +279,6 @@ hash = "66e31f260f763f9643e4efd3af083fb2b9810c49cbc221cec82caf82ec19222a"
 metafile = true
 
 [[files]]
-file = "mods/irons-spells-n-spellbooks.pw.toml"
-hash = "9b09efa63dc082b778bbd1888ac2bdea4eb514823c0c4e3258e323c52b6e66bf"
-metafile = true
-
-[[files]]
 file = "mods/jade.pw.toml"
 hash = "0fbcc8cf03336e6bed425e2115fc4ff1a3a05be5c655228b305e70380eb08b57"
 metafile = true
@@ -251,6 +286,11 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "b0441c2b5bb6ff680d97eac28d95847f0d4dbee34d1d42d897997b500acd44ca"
+metafile = true
+
+[[files]]
+file = "mods/kotlin-for-forge.pw.toml"
+hash = "70a4ecd9d0c04ad20aeb976c1ee28933ce48a0a1f43df42deafaeb2ad7235297"
 metafile = true
 
 [[files]]
