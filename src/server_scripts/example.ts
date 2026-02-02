@@ -3,7 +3,8 @@
 
 ServerEvents.recipes(event => {
   // Example recipe modification
-  event.remove({ output: 'minecraft:stick' });
+  // NOTE: Broad removals like { output: 'stick' } can cause conflicts with Silent Gear
+  // event.remove({ output: 'minecraft:stick' });
   
   event.shaped('minecraft:stick', [
     'A',

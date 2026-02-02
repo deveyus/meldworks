@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc --watch",
-    "clean": "rm -rf kubejs/**/*.js kubejs/**/*.js.map",
+    "clean": "rm -rf kubejs/client_scripts kubejs/server_scripts kubejs/startup_scripts",
     "types:sync": "./scripts/sync-types.sh",
     "build:pack": "./scripts/build-pack.sh"
   },
