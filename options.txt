@@ -16,7 +16,7 @@ showSubtitles:false
 directionalAudio:false
 touchscreen:false
 fullscreen:false
-bobView:true
+bobView:false
 toggleCrouch:false
 toggleSprint:false
 darkMojangStudiosBackground:false
@@ -68,15 +68,15 @@ useNativeTransport:true
 mainHand:"right"
 attackIndicator:1
 narrator:0
-tutorialStep:movement
+tutorialStep:none
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
-skipMultiplayerWarning:false
+skipMultiplayerWarning:true
 skipRealms32bitWarning:false
 hideMatchedNames:true
-joinedFirstServer:false
-hideBundleTutorial:false
+joinedFirstServer:true
+hideBundleTutorial:true
 syncChunkWrites:false
 showAutosaveIndicator:true
 allowServerListing:true
@@ -197,7 +197,7 @@ key_key.jei.previousRecipePage:key.keyboard.page.up
 key_key.jei.showRecipe:key.keyboard.r
 key_key.jei.bookmark:key.keyboard.a
 key_key.jei.closeRecipeGui:key.keyboard.escape
-key_key.jei.toggleEditMode:key.keyboard.unknown
+key_key.jei.toggleEditMode:key.keyboard.unknownh
 key_key.jei.previousPage:key.keyboard.unknown
 key_key.jei.transferRecipeBookmark:key.mouse.left:SHIFT
 key_key.jei.previousSearch:key.keyboard.up
@@ -261,7 +261,7 @@ key_gui.xaero_alternative_list_players:key.keyboard.unknown
 key_gui.xaero_toggle_tracked_players_on_map:key.keyboard.unknown
 key_gui.xaero_toggle_tracked_players_in_world:key.keyboard.unknown
 key_gui.xaero_toggle_pac_chunk_claims:key.keyboard.unknown
-soundCategory_master:1.0
+soundCategory_master:0.2
 soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
