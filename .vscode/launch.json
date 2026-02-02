@@ -1,0 +1,47 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Build Modpack (TS)",
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "nix",
+            "runtimeArgs": [
+                "develop",
+                "--command",
+                "npm",
+                "run",
+                "build"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Sync ProbeJS Types",
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "nix",
+            "runtimeArgs": [
+                "develop",
+                "--command",
+                "npm",
+                "run",
+                "types:sync"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Release Build (.zip)",
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "nix",
+            "runtimeArgs": [
+                "develop",
+                "--command",
+                "npm",
+                "run",
+                "build:pack"
+            ],
+            "console": "integratedTerminal"
+        }
+    ]
+}
