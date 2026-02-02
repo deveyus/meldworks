@@ -17,8 +17,17 @@
     "removeComments": true,
     "sourceMap": false,
     "declaration": false,
-    "typeRoots": ["./kubejs/probe/generated", "./node_modules/@types"]
+    "typeRoots": ["./node_modules/@types"],
+    "baseUrl": ".",
+    "paths": {
+      "probe/*": ["./kubejs/probe/server/probe-types/*"]
+    }
   },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules", "kubejs", "mods", "config"]
+  "include": [
+    "src/**/*",
+    "kubejs/probe/server/probe-types/global/*.d.ts",
+    "kubejs/probe/startup/probe-types/global/*.d.ts",
+    "kubejs/probe/client/probe-types/global/*.d.ts"
+  ],
+  "exclude": ["node_modules", "kubejs/!(probe)", "mods", "config"]
 }

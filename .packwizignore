@@ -1,0 +1,34 @@
+# Nix
+.envrc
+flake.nix
+flake.lock
+
+# Node.js / TypeScript
+node_modules/
+package.json
+package-lock.json
+tsconfig.json
+tsconfig.strict.json
+src/
+
+# Scripts & Build
+build-pack.sh
+scripts/
+.packwiz-installer-bootstrap.jar
+kubejs/probe/
+
+# Artifacts
+dist/
+*.mrpack
+
+# Brain / Artifacts (AI context)
+.gemini/
+brain/
+task.md
+implementation_plan.md
+walkthrough.md
+
+# Logs
+latest.log
+debug.log
+logs/
