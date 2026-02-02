@@ -2,7 +2,7 @@
 *   **Arbitrary Number is Arbitrary:** All numbers (RF/t, mB, Durability) in this document are placeholders. Structure comes first; mathematical balance and refinement come later.
 
 ### 2. Core Philosophy: The Engine
-*   **Mods are Libraries:** We do not rely on mods to provide the gameplay loop. We use mods (KubeJS, Multiblocked2, Photon2) as asset libraries to build a custom gameplay, except where mods prodive hard-to-replicate features, such as Immersive Aircraft, Create, and others.
+*   **Mods are Libraries:** We do not rely on mods to provide the gameplay loop. We use mods (KubeJS, Multiblocked2, Photon2) as asset libraries to build a custom gameplay, except where mods provide hard-to-replicate features, such as Immersive Aircraft, Create, and others.
 *   **Simulation over Gamification:** If a mechanic feels like a "minigame" (magic block processing), replace it with a "simulation" (heat, pressure, fluid dynamics).
 *   **No Magic Blocks:** No single block should solve a complex logistical problem instantly. No "Magic Box" batteries. No "Magic Box" farms.
 

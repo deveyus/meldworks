@@ -11,7 +11,9 @@ Meldworks focuses on a minimal yet deeply integrated simulation experience. Draw
 - **High Performance**: Optimized for stability and fluid gameplay in server environments.
 
 ## Documentation
-Further technical details and progress logs can be found in the [`/docs`](./docs) directory.
-- [Initial Modlist](./docs/initial_modlist.md)
+### Project Information
 - [Design Tenets](./docs/design_tenets.md)
+- [Initial Modlist](./docs/initial_modlist.md)
+- [Getting Started](./docs/getting_started.md)
+- [Pipeline & Releases](./docs/pipeline_and_releases.md)
 
