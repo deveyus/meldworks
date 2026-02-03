@@ -362,11 +362,6 @@ hash = "66bcfe786e6bbdee6f7ea0805ec3d2561b41285a5c77f1e465e80f4c2fd9200c"
 metafile = true
 
 [[files]]
-file = "mods/mantle.pw.toml"
-hash = "453967db73cfa22884fd892e65314822c9a15dcebd57510e40e5785b748e9e70"
-metafile = true
-
-[[files]]
 file = "mods/map-atlases-forge.pw.toml"
 hash = "245b2e9a6498ed63673d4ca8e0c101f8adc9f0a8d24c8088923a3386fcf69fa5"
 metafile = true
@@ -569,11 +564,6 @@ metafile = true
 [[files]]
 file = "mods/thin-air.pw.toml"
 hash = "43711fcf98a883adc997cd8cf314185544994419f3a03b329a32f682b78f2a7d"
-metafile = true
-
-[[files]]
-file = "mods/tinkers-construct.pw.toml"
-hash = "d976517d4d8951e9ee57ecdcdcb79a6c390614d595624b68287d945c2dcf9614"
 metafile = true
 
 [[files]]
