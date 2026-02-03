@@ -9,7 +9,7 @@ node_modules/
 *.tsbuildinfo
 
 # Build outputs
-dist/
+dist/*
 
 # Packwiz installer bootstrap (downloaded during build)
 .packwiz-installer-bootstrap.jar

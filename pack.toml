@@ -1,12 +1,12 @@
 name = "Meldworks"
 author = "Deveyus"
-version = "0.0.0-14e94c6"
+version = "0.0.0-b6a2204"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "5881a6243a2e9c4cb682e2c50bcc670c48a324d93af1e9ba9b19e0f7b57c1a1f"
+hash = "6a8a6cfe6b0b1efc1861ef33ada958f6319c21f1e45078973dc72341718f6d21"
 
 [versions]
 forge = "47.4.13"
