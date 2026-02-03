@@ -3,6 +3,9 @@
 flake.nix
 flake.lock
 
+# Environment
+.vscode/
+
 # Node.js / TypeScript
 node_modules/
 package.json

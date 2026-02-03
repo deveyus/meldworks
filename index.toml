@@ -46,7 +46,7 @@ hash = "a4c4555ce52c55525102bef3e0833fb18c6c9223443776c19fca9bcf200c004f"
 
 [[files]]
 file = "kubejs/client_scripts/tef_tooltips.js"
-hash = "9418c771ff85e80825c4a05a0e901938ea4058323716a43d8fbc63c9c8aab9f9"
+hash = "889241d184fd7e770a8722c0e18b8605c76397ea63743cf71a5bbbb18a0a14e8"
 
 [[files]]
 file = "kubejs/server_scripts/example.js"
