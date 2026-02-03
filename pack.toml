@@ -1,6 +1,6 @@
 name = "Meldworks"
 author = "Deveyus"
-version = "0.0.0-d8f8677"
+version = "0.0.0-5d9d0b1"
 pack-format = "packwiz:1.1.0"
 
 [index]
