@@ -1,14 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".vscode/launch.json"
-hash = "1d023c6d9699fb7169511d7b644d135037165e5912c5823118bf0dd090fa1006"
-
-[[files]]
-file = ".vscode/tasks.json"
-hash = "8af7d1de48ddd646775971c5b1c520d5ae24009def1f18b9e05c0a63f57fab77"
-
-[[files]]
 file = "README.md"
 hash = "ae129cd20f0aa878583bc74fb79edfbd5b5a6151f1545843a63c382787c086e4"
 
