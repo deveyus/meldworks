@@ -43,8 +43,8 @@ echo -e "${BLUE}[1/4] Compiling TypeScript...${NC}"
 npm run build --silent
 
 # 4. Updating pack.toml
-echo -e "${BLUE}[2/4] Updating pack.toml version...${NC}"
-sed -i "s/^version = .*/version = \"${VERSION}\"/" pack.toml
+echo -e "${BLUE}[2/4] Skipping pack.toml version update (managed by packwiz)...${NC}"
+# sed -i "s/^version = .*/version = \"${VERSION}\"/" pack.toml
 
 # 5. Preparing Staging Area
 echo -e "${BLUE}[3/4] Preparing Zip Content...${NC}"
