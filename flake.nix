@@ -25,6 +25,7 @@
             jq  # JSON manipulation for build scripts
             unzip
             zip
+            gettext # for envsubst
             
             # Packwiz for mod management
             packwiz

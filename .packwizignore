@@ -19,6 +19,7 @@ kubejs/probe/
 
 # Artifacts
 dist/
+config/prism/
 *.mrpack
 
 # Brain / Artifacts (AI context)

@@ -25,67 +25,65 @@ echo -e "${BLUE}🚀 Starting Meldworks Build...${NC}"
 VERSION=$(bash "${SCRIPTS_DIR}/generate-version.sh")
 FINAL_FILENAME="meldworks-${VERSION}.zip"
 GITHUB_PAGES_URL="${PACKWIZ_URL:-https://deveyus.github.io/meldworks/pack.toml}"
+PACK_NAME="${PACK_NAME:-Meldworks ${VERSION}}"
 
 echo -e "${BLUE}📦 Version:${NC} ${GREEN}${VERSION}${NC}"
 echo -e "${BLUE}🌐 Bootstrap URL:${NC} ${YELLOW}${GITHUB_PAGES_URL}${NC}"
 
-# 2. Compile TypeScript
-echo -e "${BLUE}[1/3] Compiling TypeScript...${NC}"
+# 2. Extract Versions from pack.toml
+# Simple grep extraction
+MC_VERSION=$(grep 'minecraft = ' pack.toml | cut -d '"' -f 2)
+FORGE_VERSION=$(grep 'forge = ' pack.toml | cut -d '"' -f 2)
+
+echo -e "${BLUE}🎮 Minecraft:${NC} ${GREEN}${MC_VERSION}${NC}"
+echo -e "${BLUE}🔨 Forge:${NC} ${GREEN}${FORGE_VERSION}${NC}"
+
+# 3. Compiling TypeScript
+echo -e "${BLUE}[1/4] Compiling TypeScript...${NC}"
 npm run build --silent
 
-# 3. Update pack.toml version
-echo -e "${BLUE}[2/3] Updating pack.toml version...${NC}"
+# 4. Updating pack.toml
+echo -e "${BLUE}[2/4] Updating pack.toml version...${NC}"
 sed -i "s/^version = .*/version = \"${VERSION}\"/" pack.toml
 
-# 4. Generate Modrinth export
-echo -e "${BLUE}[3/3] Exporting and Injecting Bootstrap...${NC}"
+# 5. Preparing Staging Area
+echo -e "${BLUE}[3/4] Preparing Zip Content...${NC}"
+STAGING_DIR="${DIST_DIR}/staging"
+rm -rf "${STAGING_DIR}"
+mkdir -p "${STAGING_DIR}/minecraft"
 mkdir -p "${DIST_DIR}"
-FINAL_PATH="${DIST_DIR}/${FINAL_FILENAME}"
 
-# Export directly to dist
-packwiz modrinth export -o "${FINAL_PATH}" -y
-
-# 5. Inject packwiz-installer (Optimized: No full unzip)
+# Download bootstrap if missing
 if [ ! -f "${BOOTSTRAP_JAR}" ]; then
     echo -e "${YELLOW}Downloading packwiz-installer-bootstrap...${NC}"
-    curl -L -o "${BOOTSTRAP_JAR}" \
+    curl -L -s -o "${BOOTSTRAP_JAR}" \
         https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar
 fi
 
-# Create a temporary workspace for manifest modification
-TEMP_DIR=$(mktemp -d)
-trap "rm -rf '${TEMP_DIR}'" EXIT
+# Copy bootstrap to minecraft/ folder (where Prism will extract it to game root)
+cp "${BOOTSTRAP_JAR}" "${STAGING_DIR}/minecraft/packwiz-installer-bootstrap.jar"
 
-# Extract only the modrinth.index.json
-unzip -q "${FINAL_PATH}" "${PACKWIZ_INDEX}" -d "${TEMP_DIR}"
+# Process Templates using envsubst
+export PACK_NAME PACK_URL="${GITHUB_PAGES_URL}" MC_VERSION FORGE_VERSION
 
-# Update the manifest with pre-launch command
-jq --arg url "$GITHUB_PAGES_URL" \
-   '.preLaunchCommand = "\"$INST_JAVA\" -jar packwiz-installer-bootstrap.jar \($url)"' \
-   "${TEMP_DIR}/${PACKWIZ_INDEX}" > "${TEMP_DIR}/updated_${PACKWIZ_INDEX}"
+# We explicitly list variables to substitute to avoid breaking $INST_JAVA and other Prism variables
+envsubst '$PACK_NAME $PACK_URL' < "${ROOT_DIR}/config/prism/instance.cfg" > "${STAGING_DIR}/instance.cfg"
+envsubst '$MC_VERSION $FORGE_VERSION' < "${ROOT_DIR}/config/prism/mmc-pack.json" > "${STAGING_DIR}/mmc-pack.json"
 
-# Update the ZIP file in-place:
-# -j: junk paths (flat file)
-# -u: update existing file
-cd "${TEMP_DIR}"
-mv "updated_${PACKWIZ_INDEX}" "${PACKWIZ_INDEX}"
-zip -ujq "${FINAL_PATH}" "${PACKWIZ_INDEX}"
+# 6. Create Zip
+echo -e "${BLUE}[4/4] Creating Prism Instance Zip...${NC}"
+FINAL_PATH="${DIST_DIR}/${FINAL_FILENAME}"
+rm -f "${FINAL_PATH}"
+
+cd "${STAGING_DIR}"
+zip -qr "${FINAL_PATH}" .
 cd "${ROOT_DIR}"
 
-# Add the bootstrap jar to overrides/
-# We use a temporary overrides/ structure to maintain the internal zip path
-mkdir -p "${TEMP_DIR}/overrides"
-cp "${BOOTSTRAP_JAR}" "${TEMP_DIR}/overrides/packwiz-installer-bootstrap.jar"
-cd "${TEMP_DIR}"
-zip -rujq "${FINAL_PATH}" "overrides/packwiz-installer-bootstrap.jar"
-cd "${ROOT_DIR}"
+# Cleanup
+rm -rf "${STAGING_DIR}"
 
 echo -e "${GREEN}✅ Build complete: dist/${BRIGHT_GREEN}${FINAL_FILENAME}${NC}"
 echo ""
-echo "Follow the release instructions in docs/release.md to publish."
-echo ""
 echo "To install in Prism Launcher:"
-echo "  1. Open Prism Launcher"
-echo "  2. Add Instance → Import from zip"
-echo "  3. Select dist/${BRIGHT_GREEN}${FINAL_FILENAME}${NC}"
-echo "  4. The pack will auto-update from GitHub Pages on launch"
+echo "  1. Add Instance → Import from zip"
+echo "  2. Select dist/${BRIGHT_GREEN}${FINAL_FILENAME}${NC}"
