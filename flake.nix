@@ -29,6 +29,9 @@
             
             # Packwiz for mod management
             packwiz
+
+            # Gemini-CLI for local aid
+            gemini-cli
           ];
 
           shellHook = ''
