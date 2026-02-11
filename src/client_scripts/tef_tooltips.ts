@@ -6,9 +6,6 @@ ItemEvents.tooltip(event => {
             Text.darkGray('Current Energy State: ').append(Text.yellow(`${rankine} °R`)),
             Text.darkGray('Calibration per ISO-80000-5 compliance.').italic()
         ]
-
-        // Target the fluid item itself (often seen in JEI or fluid tanks)
-        event.add(`kubejs:tef_${tier.id}`, tooltip)
         
         // Target the bucket item
         event.add(`kubejs:tef_${tier.id}_bucket`, tooltip)

@@ -40,7 +40,7 @@ echo -e "${BLUE}🔨 Forge:${NC} ${GREEN}${FORGE_VERSION}${NC}"
 
 # 3. Compiling TypeScript
 echo -e "${BLUE}[1/4] Compiling TypeScript...${NC}"
-npm run build --silent
+npm run build
 
 # 4. Updating pack.toml
 echo -e "${BLUE}[2/4] Updating pack.toml version...${NC}"
