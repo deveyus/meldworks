@@ -1,6 +1,6 @@
 name = "Natural Temperature"
 filename = "naturaltemperature-1.0.15.4-FORGE-MC-1.20.1.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/QZt2fevq/versions/9YwTbSP2/naturaltemperature-1.0.15.4-FORGE-MC-1.20.1.jar"

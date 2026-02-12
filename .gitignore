@@ -12,3 +12,6 @@ dist/*
 
 # ProbeJS generated types are tracked for convenience
 !kubejs/probe/
+
+# Downloaded mod documentation
+docs/mod_docs/
