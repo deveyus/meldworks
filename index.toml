@@ -155,11 +155,6 @@ hash = "479dab388743fb59d3399d2d87a0a7dc0819a4184b74f734fa9cc1eecdd6f6f6"
 metafile = true
 
 [[files]]
-file = "mods/chemlib.pw.toml"
-hash = "882da059a6d7439b9cdf746813c61ce1e8e73c00a88e4e0cbe4412d4c312702a"
-metafile = true
-
-[[files]]
 file = "mods/classic-pipes.pw.toml"
 hash = "4abb872e10545b3cbd4728a99af382337503079f4b13420c017e447ff056def2"
 metafile = true
