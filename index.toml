@@ -135,6 +135,11 @@ hash = "e53392cab6393798f95c4ad012dcbd9a5a55d02ef2861ac0c23bee972686dddc"
 metafile = true
 
 [[files]]
+file = "mods/bookshelf-lib.pw.toml"
+hash = "68d6016fa3707c434b3aca5db041c7518c70feb53d0183faa2502cc6efd4c827"
+metafile = true
+
+[[files]]
 file = "mods/bosses-of-mass-destruction-forge.pw.toml"
 hash = "30ffe79b0347aa0c24e2c6ad917457f1ccae75423b96c8d30c7c8c372fb90cc5"
 metafile = true
@@ -305,11 +310,6 @@ hash = "9342bd3338c6fbb80f84625e2715a6c443b54daff11826f0dfb9ebb6ab411fd2"
 metafile = true
 
 [[files]]
-file = "mods/gacha-lootbox.pw.toml"
-hash = "ea6dcdd9233f39f5c71af10bb30c5509f1525f6165866503fb9b28ee66473c18"
-metafile = true
-
-[[files]]
 file = "mods/geckolib.pw.toml"
 hash = "68e15ffc71a84261e0dbbb317329788c21a7b9eb8060687dc8a51008cc3029fe"
 metafile = true
@@ -390,8 +390,13 @@ hash = "c1d1d67f2b3924a3f2694af3206b425d2f88a04853010f98a99953d5894047a6"
 metafile = true
 
 [[files]]
-file = "mods/lets-do-brewery.pw.toml"
-hash = "6432819826de08392ee4fb077aceb79c62a909b9d1dab33e55fa9aa682e9ecd9"
+file = "mods/lets-do-brewery-neoforge.pw.toml"
+hash = "76206b73adbd9f12d88b22b5dced67e2a4a8823b22781d46ca7f78821b438656"
+metafile = true
+
+[[files]]
+file = "mods/lets-do-farm-charm.pw.toml"
+hash = "139243c0b47a2d89147289b8d9ef91178c1c2511f3060e00e3699d0e3adb226b"
 metafile = true
 
 [[files]]
