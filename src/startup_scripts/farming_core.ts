@@ -66,7 +66,7 @@ StartupEvents.registry('block', event => {
         })
 })
 
-JadeEvents.onCommonRegistration(event => {
+KubeJS.Events.onCommonRegistration(event => {
     event.blockDataProvider('meldworks:living_farmland', Java.loadClass('dev.latvian.mods.kubejs.block.entity.BlockEntityJS'))
         .setCallback((tag, accessor) => {
             const { blockEntity } = accessor

@@ -1,0 +1,13 @@
+name = "Mechanical Pump"
+filename = "aos_basic_fluid-1.21.1-1.0.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/nFmetpvY/versions/LhM6ne8z/aos_basic_fluid-1.21.1-1.0.5.jar"
+hash-format = "sha512"
+hash = "61b56dbc53001e5e58d4bb38b3debc8b736848c8cc974e73d6f4129af4d91e5739268ea56f816c7fbda2660d1ea14ff68855c2a95b79c24b370478c7bf874da0"
+
+[update]
+[update.modrinth]
+mod-id = "nFmetpvY"
+version = "LhM6ne8z"

@@ -1,0 +1,13 @@
+name = "Ancient Warfare 3 NPCs"
+filename = "aw_npc-1.21.1-0.3.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/JGpHPgID/versions/CH85A6kl/aw_npc-1.21.1-0.3.6.jar"
+hash-format = "sha512"
+hash = "3e37e9ec61554e4eeae3e25369edcad4784450561aa59ef4db185c7953e01f20764b7bbfc76152b3c4282fa503435627baffff783668223166e0d2e2cdd2e526"
+
+[update]
+[update.modrinth]
+mod-id = "JGpHPgID"
+version = "CH85A6kl"

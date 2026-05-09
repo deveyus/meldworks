@@ -1,4 +1,4 @@
-JadeEvents.onClientRegistration(event => {
+KubeJS.Events.onClientRegistration(event => {
     event.block('meldworks:living_farmland', Java.loadClass('net.minecraft.world.level.block.Block'))
         .tooltip((tooltip, accessor) => {
             const { block, player, level, serverData } = accessor

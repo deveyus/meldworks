@@ -6,7 +6,6 @@ ItemEvents.tooltip(event => {
             Text.darkGray('Current Energy State: ').append(Text.yellow(`${rankine} °R`)),
             Text.darkGray('Calibration per ISO-80000-5 compliance.').italic()
         ];
-        event.add(`kubejs:tef_${tier.id}`, tooltip);
         event.add(`kubejs:tef_${tier.id}_bucket`, tooltip);
     });
 });

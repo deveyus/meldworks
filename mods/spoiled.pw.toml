@@ -1,13 +1,13 @@
 name = "Spoiled"
-filename = "Spoiled-forge-1.20.1-2.2.0.jar"
+filename = "Spoiled-neoforge-1.21.1-6.2.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/FsHyEZFS/versions/xkicQ34u/Spoiled-forge-1.20.1-2.2.0.jar"
+url = "https://cdn.modrinth.com/data/FsHyEZFS/versions/qm5Pq6d8/Spoiled-neoforge-1.21.1-6.2.2.jar"
 hash-format = "sha512"
-hash = "1824d82f23801824f1d8c12a965ab3bda32e7cd4a15d59b7b424cbaeb01db553250da1dde341b8a677ef55e9aca96a30cf104ba7348d3cb1e5debe2cd608409a"
+hash = "d45b1ac7765313dd2822b36ba7fbf8bc6b04f42c5ef56030f650ae30dd45c82579607ba6835ddcd7b05a5a02424cd9040ac4190493efa19b1c7c71cd49c66aee"
 
 [update]
 [update.modrinth]
 mod-id = "FsHyEZFS"
-version = "xkicQ34u"
+version = "qm5Pq6d8"

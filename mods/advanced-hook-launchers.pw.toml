@@ -1,13 +1,13 @@
 name = "Advanced Hook Launchers"
-filename = "AdHooks-1.20.1-10.1.2.3-build.1656.jar"
+filename = "AdHooks-1.21.1-11.1.1.1-NeoForge-build.0821.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "31a955c5e0f75d8d183c0a94d9f0723860dabc03"
+hash = "2b18833a3a2961210bd09ea8ced9486c43b88e42"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6989570
+file-id = 8032495
 project-id = 244849

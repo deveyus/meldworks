@@ -6,11 +6,15 @@
 *   **Bridge Material:** Bronze
 
 **2. Era 2: The Thermal Era (The Age of Steam)**
-*   **Description**: This is the era where you start to harness meaningful power sources, they're still small a localized, but you're learning how to make heat start to work for you.
-*   **Focus:** Heat, Pressure, Fluid Pipes.
-*   **Key Tech:** Fire-Tube Boiler, Steam Engines, Coke Ovens, Embers (Industrial Mysticism / Dawnstone).
+*   **Description:** The first industrial revolution. We transition from the muscle of beasts to the expansion of steam (Reciprocating Piston Engines). This era introduces "The Works" cycle: byproducts are no longer waste, but essential precursors.
+*   **Bootstrap:** Bronze Boilers (Low Pressure). Relies on Era 1 manual labor to stoke fires; highly inefficient and bulky.
+*   **Peak Tech:** **Brass** (Precision Machining). Allows for complex valves, governors, and high-pressure pistons. Introduces the "Maintenance" mechanic (replacing broken Parts).
+*   **The Crisis:** The demands of industry outstrip the capacity of wood and charcoal. Bronze cannot contain the pressures required for higher efficiency, and fuel consumption becomes unmanageable.
+*   **Bridge Power:** **Coke** (High-Density Fuel). Required to feed the high-temperature demands of the new industry.
+*   **Bridge Material:** **Treated Wood** (Byproduct of Coke; yields Creosote). The chemical-resistant foundation required for the vats of Era 3.
+*   **Key Tech:** Fire-Tube Boiler, Steam Engines, Coke Ovens.
 *   **Key Material:** Iron, Wrought Iron, Treated Wood.
-*   **Bridge Material:** (Stainless?) Steel
+
 
 **3. Era 3: The Synthesis Era (The Age of Reactivity)**
 *   **Description:** This is an era that mirrors the great era of the chemistry giants like DuPont, making rubber and other things practical.  You're going to need to find mineral and plant sources for things that previously were useless to you. Electricity is starting to show up, as well as the advent of conveyor belts.  Many things are still powered by direct steam or similar.

@@ -10,10 +10,17 @@
     "types:sync": "./scripts/sync-types.sh",
     "build:pack": "./scripts/build-pack.sh"
   },
-  "keywords": ["minecraft", "modpack", "kubejs"],
+  "keywords": [
+    "minecraft",
+    "modpack",
+    "kubejs"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@types/node": "^25.3.0"
   }
 }

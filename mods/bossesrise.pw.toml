@@ -1,13 +1,13 @@
 name = "Bosses'Rise"
-filename = "bossesrise-1.20.1-forge-1.0.9.2b.jar"
+filename = "block_factorys_bosses-2.1.1-neo-1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/q2bV1Tm1/versions/pwPCK6tY/bossesrise-1.20.1-forge-1.0.9.2b.jar"
+url = "https://cdn.modrinth.com/data/q2bV1Tm1/versions/FQB6F9rj/block_factorys_bosses-2.1.1-neo-1.21.1.jar"
 hash-format = "sha512"
-hash = "e98a8fe209a94b5b0a1b3da7456532aa6a53a25af4ea66694d56fd7645cb299cb4c8052b565b3310489aa6419313a44b1cd043b80446a6093565cf77c5d7b61b"
+hash = "ffa48baf60f656de497f8dd51631583213a0cf440d52f078be1e298292f7653eb19b88bc849aa5169e90efdaa3697d8b28ee68558822b9a401255ef16cf0d1d5"
 
 [update]
 [update.modrinth]
 mod-id = "q2bV1Tm1"
-version = "pwPCK6tY"
+version = "FQB6F9rj"

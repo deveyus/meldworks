@@ -1,0 +1,13 @@
+name = "Ancient Warfare 3 Worksites"
+filename = "aw_worksite-1.21.1-0.2.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/cVHhspsL/versions/is3YCGqp/aw_worksite-1.21.1-0.2.3.jar"
+hash-format = "sha512"
+hash = "f1c5c41705b1f8ba258ef553b83537f8d9274d23a57dae30916071738da3aaa0ae5385385676d27604e1e09782e4927579deed5477401ee8becb78b885e1c30e"
+
+[update]
+[update.modrinth]
+mod-id = "cVHhspsL"
+version = "is3YCGqp"

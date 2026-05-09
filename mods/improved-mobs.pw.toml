@@ -1,13 +1,13 @@
 name = "Improved Mobs"
-filename = "improvedmobs-1.20.1-1.13.6-forge.jar"
+filename = "improvedmobs-1.21.1-1.15.2-neoforge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/23MovWyi/versions/URG9RSTR/improvedmobs-1.20.1-1.13.6-forge.jar"
+url = "https://cdn.modrinth.com/data/23MovWyi/versions/diNLFI6L/improvedmobs-1.21.1-1.15.2-neoforge.jar"
 hash-format = "sha512"
-hash = "7b46804330ae81d6277b52d2f841e35745be55e30c9cc4350e0502125f987838da4715fb426bd3e15ca92413b6319b0b957e6fca22df9243adbaf5ad85620e7a"
+hash = "f8c651b710747868da6a774f0eff689bc59f8717e42c4252af3e2966243fc57d18b5c54c433ac822dc8c8a8ad7fdd350492d9582cfa9c7fc9deb31750d7c9ee8"
 
 [update]
 [update.modrinth]
 mod-id = "23MovWyi"
-version = "URG9RSTR"
+version = "diNLFI6L"

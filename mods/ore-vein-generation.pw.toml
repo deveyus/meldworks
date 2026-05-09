@@ -1,0 +1,8 @@
+name = "ore-vein-generation"
+filename = "OreVeins-mc1.21.1-1.3.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/SkHoRPvR/versions/beaXCy8e/OreVeins-mc1.21.1-1.3.1.jar"
+hash-format = "sha256"
+hash = "92144eaadfa7cdd2d71ef62eccf64e336c949a616ae1e79db63269e5dbd37f18"

@@ -1,13 +1,13 @@
 name = "Classic Pipes"
-filename = "classicpipes-forge-1.20.1-1.0.10.jar"
+filename = "classicpipes-neoforge-1.21.1-1.1.5.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/xX5VOqpH/versions/DHTWRd9n/classicpipes-forge-1.20.1-1.0.10.jar"
+url = "https://cdn.modrinth.com/data/xX5VOqpH/versions/7FASBGR9/classicpipes-neoforge-1.21.1-1.1.5.jar"
 hash-format = "sha512"
-hash = "c79b8dddda215f1dcba48427489e86b0bd650d8fdd530c72d33ff48aba31007703db89b24bb452c62d4e882411d262f65054152833255c1ccbb0148066b32dbc"
+hash = "3b256d8b09a58ab8c8c141bd6289ce331e818b0214bd5cea983aa980940c62cfc78944d34e28c8562ce7c8ecf4b1219607abe463e5bd84a256e6f104668721f5"
 
 [update]
 [update.modrinth]
 mod-id = "xX5VOqpH"
-version = "DHTWRd9n"
+version = "7FASBGR9"

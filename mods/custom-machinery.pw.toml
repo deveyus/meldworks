@@ -1,0 +1,13 @@
+name = "Custom Machinery"
+filename = "CustomMachinery-neoforge-1.21.1-0.10.65.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/OrB5XFtI/versions/HgaaEmoT/CustomMachinery-neoforge-1.21.1-0.10.65.jar"
+hash-format = "sha512"
+hash = "0bd18065eda9e6e38aeb779f2e4d55ce15cb4aac786516b266abba1f524ccdda1adb0f3693caca953d65ce6f0ac8a5d1f00570990bc9cb55465dbbd3c8be7c82"
+
+[update]
+[update.modrinth]
+mod-id = "OrB5XFtI"
+version = "HgaaEmoT"
