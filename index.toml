@@ -1190,6 +1190,11 @@ hash = "59226821b9e7d45259019ee822a4480c0edd3b3c7f067b17767a035ebb71529a"
 metafile = true
 
 [[files]]
+file = "mods/registry-dumper-3000.pw.toml"
+hash = "bddad9ef0462154cd1e5d95105d155a8128571df325d6bbaf92bb50b51c8ac12"
+metafile = true
+
+[[files]]
 file = "mods/relics-mod.pw.toml"
 hash = "b1234155f301b87aee2bce2847b593da1c38e9b1520b90ac9300126673ee2faf"
 metafile = true
