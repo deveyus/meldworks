@@ -33,10 +33,10 @@ echo -e "${BLUE}🌐 Bootstrap URL:${NC} ${YELLOW}${GITHUB_PAGES_URL}${NC}"
 # 2. Extract Versions from pack.toml
 # Simple grep extraction
 MC_VERSION=$(grep 'minecraft = ' pack.toml | cut -d '"' -f 2)
-FORGE_VERSION=$(grep 'forge = ' pack.toml | cut -d '"' -f 2)
+NEOFORGE_VERSION=$(grep 'neoforge = ' pack.toml | cut -d '"' -f 2)
 
 echo -e "${BLUE}🎮 Minecraft:${NC} ${GREEN}${MC_VERSION}${NC}"
-echo -e "${BLUE}🔨 Forge:${NC} ${GREEN}${FORGE_VERSION}${NC}"
+echo -e "${BLUE}⚡ NeoForge:${NC} ${GREEN}${NEOFORGE_VERSION}${NC}"
 
 # 3. Compiling TypeScript
 echo -e "${BLUE}[1/4] Compiling TypeScript...${NC}"
@@ -64,11 +64,11 @@ fi
 cp "${BOOTSTRAP_JAR}" "${STAGING_DIR}/minecraft/packwiz-installer-bootstrap.jar"
 
 # Process Templates using envsubst
-export PACK_NAME PACK_URL="${GITHUB_PAGES_URL}" MC_VERSION FORGE_VERSION
+export PACK_NAME PACK_URL="${GITHUB_PAGES_URL}" MC_VERSION NEOFORGE_VERSION
 
 # We explicitly list variables to substitute to avoid breaking $INST_JAVA and other Prism variables
 envsubst '$PACK_NAME $PACK_URL' < "${ROOT_DIR}/config/prism/instance.cfg" > "${STAGING_DIR}/instance.cfg"
-envsubst '$MC_VERSION $FORGE_VERSION' < "${ROOT_DIR}/config/prism/mmc-pack.json" > "${STAGING_DIR}/mmc-pack.json"
+envsubst '$MC_VERSION $NEOFORGE_VERSION' < "${ROOT_DIR}/config/prism/mmc-pack.json" > "${STAGING_DIR}/mmc-pack.json"
 
 # 6. Create Zip
 echo -e "${BLUE}[4/4] Creating Prism Instance Zip...${NC}"
