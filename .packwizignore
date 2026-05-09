@@ -25,6 +25,9 @@ dist/
 config/prism/
 *.mrpack
 
+# Docs (served separately, not needed in modpack bootstrap)
+docs/
+
 # Brain / Artifacts (AI context)
 .gemini/
 brain/
