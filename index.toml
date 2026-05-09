@@ -525,11 +525,6 @@ hash = "5fab72eb13ebef3ff647dca260303507326e572849289c09806b25b527037fca"
 metafile = true
 
 [[files]]
-file = "mods/rechiseled.pw.toml"
-hash = "b4cb292255e46d058ef9c4a6bcdf562ae539489a31d0b4bea3718042d98e5c86"
-metafile = true
-
-[[files]]
 file = "mods/reconstructed-wands.pw.toml"
 hash = "59226821b9e7d45259019ee822a4480c0edd3b3c7f067b17767a035ebb71529a"
 metafile = true
