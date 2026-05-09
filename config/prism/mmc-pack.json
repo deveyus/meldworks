@@ -10,7 +10,7 @@
         {
             "cachedName": "NeoForge",
             "cachedVersion": "${NEOFORGE_VERSION}",
-            "uid": "net.neoforged.neo",
+            "uid": "net.neoforged",
             "version": "${NEOFORGE_VERSION}"
         }
     ],

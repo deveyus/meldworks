@@ -1,6 +1,6 @@
 name = "Meldworks"
 author = "Deveyus"
-version = "0.0.0-a5d0f44"
+version = "0.0.0-4cdc1f9"
 pack-format = "packwiz:1.1.0"
 
 [index]
@@ -10,7 +10,7 @@ hash = "a27897022000669d46ffdce4e73dda3319e8b3b2bae5647fc8a9263a3c0b3f19"
 
 [versions]
 minecraft = "1.21.1"
-neoforge = "21.1.74"
+neoforge = "21.1.228"
 
 [options]
 acceptable-game-versions = ["1.21.1"]
