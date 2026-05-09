@@ -8,10 +8,10 @@
             "version": "${MC_VERSION}"
         },
         {
-            "cachedName": "Forge",
-            "cachedVersion": "${FORGE_VERSION}",
-            "uid": "net.minecraftforge",
-            "version": "${FORGE_VERSION}"
+            "cachedName": "NeoForge",
+            "cachedVersion": "${NEOFORGE_VERSION}",
+            "uid": "net.neoforged.neo",
+            "version": "${NEOFORGE_VERSION}"
         }
     ],
     "formatVersion": 1
