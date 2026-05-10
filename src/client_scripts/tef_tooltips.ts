@@ -1,4 +1,5 @@
-ItemEvents.tooltip(event => {
+// @ts-ignore KubeJS 1.21 runtime uses modifyTooltips (types out of sync)
+ItemEvents.modifyTooltips(event => {
     global.tefData.forEach(tier => {
         let rankine = (tier.k * 1.8).toFixed(1)
         let tooltip = [
