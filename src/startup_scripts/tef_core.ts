@@ -16,7 +16,7 @@ StartupEvents.registry('fluid', event => {
             .displayName(`${tier.name} TEF`)
             .stillTexture('minecraft:block/water_still')
             .flowingTexture('minecraft:block/water_flow')
-            .color(tier.color)
+            .tint(tier.color)
             .noBlock() 
     })
 

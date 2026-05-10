@@ -25,10 +25,6 @@ file = "kubejs/client_scripts/tef_tooltips.js"
 hash = "9dc72c703dc9b08bf7730e0ad73108259cd4a1016c6cfd52f532114065a09599"
 
 [[files]]
-file = "kubejs/data/curios/slots/agricultural.json"
-hash = "3157e00b38dca07979331e276d68a5a40d56801a85a0ebccdf1223270a82347a"
-
-[[files]]
 file = "kubejs/server_scripts/example.js"
 hash = "54752631759d5725cfaa4a8cf6f3daad97d01fdb27144b07ad03f061818ffcf1"
 

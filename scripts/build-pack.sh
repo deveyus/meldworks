@@ -60,9 +60,6 @@ if [ ! -f "${BOOTSTRAP_JAR}" ]; then
         https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar
 fi
 
-# Copy all packwiz-indexed files (kubejs scripts, configs, etc.)
-cp -r "${ROOT_DIR}"/kubejs "${STAGING_DIR}/kubejs" 2>/dev/null || true
-
 # Copy bootstrap to minecraft/ folder (where Prism will extract it to game root)
 cp "${BOOTSTRAP_JAR}" "${STAGING_DIR}/minecraft/packwiz-installer-bootstrap.jar"
 
