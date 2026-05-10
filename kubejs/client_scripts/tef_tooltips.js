@@ -1,4 +1,4 @@
-ItemEvents.tooltip(event => {
+ItemEvents.modifyTooltips(event => {
     global.tefData.forEach(tier => {
         let rankine = (tier.k * 1.8).toFixed(1);
         let tooltip = [
