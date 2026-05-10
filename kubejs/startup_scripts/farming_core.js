@@ -53,20 +53,6 @@ StartupEvents.registry('block', event => {
         }
     });
 });
-KubeJS.Events.onCommonRegistration(event => {
-    event.blockDataProvider('meldworks:living_farmland', Java.loadClass('dev.latvian.mods.kubejs.block.entity.BlockEntityJS'))
-        .setCallback((tag, accessor) => {
-        const { blockEntity } = accessor;
-        if (blockEntity && blockEntity.block.id == 'meldworks:living_farmland') {
-            const data = blockEntity.data;
-            tag.putFloat('n_val', data.getFloat('n_val'));
-            tag.putFloat('p_val', data.getFloat('p_val'));
-            tag.putFloat('k_val', data.getFloat('k_val'));
-            tag.putBoolean('is_resting', data.getBoolean('is_resting'));
-            tag.putLong('reaction_expiry', data.getLong('reaction_expiry'));
-        }
-    });
-});
 StartupEvents.registry('item', event => {
     event.create('indicator_dust').displayName('Indicator Dust');
     event.create('mechanical_meter').displayName('Mechanical Soil Meter').maxStackSize(1);
