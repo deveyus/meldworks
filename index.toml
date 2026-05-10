@@ -460,11 +460,6 @@ hash = "6bc414cc0f2d4c078fe83f384d786343f701f371d657c5279b5b0df1595804bd"
 metafile = true
 
 [[files]]
-file = "mods/natural-temperature.pw.toml"
-hash = "c788dd63fb699f1b21366de60a3fb68ea4e3bf76840eb5bfef8bdce6bd430e30"
-metafile = true
-
-[[files]]
 file = "mods/neoculus.pw.toml"
 hash = "dcbf1db7e42ada5710cb150588551e95fc01ecda5ada55efce4168a702f17222"
 metafile = true
