@@ -34,7 +34,7 @@ hash = "54752631759d5725cfaa4a8cf6f3daad97d01fdb27144b07ad03f061818ffcf1"
 
 [[files]]
 file = "kubejs/startup_scripts/tef_core.js"
-hash = "af29bec0585a99209f98938c4d251787896e18cc09ee0103ed95d65f7d87ea5a"
+hash = "4983df4773a273709e6f52953b612336faf00e38889d08c94423c40926003ab6"
 
 [[files]]
 file = "mods/advanced-chimneys.pw.toml"
