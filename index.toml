@@ -21,14 +21,6 @@ file = "config/supplementaries-client.toml"
 hash = "8ed88e98c4775184554356ec2ae1968a65faeb2e0d7cd85107fdc2fb975010a9"
 
 [[files]]
-file = "kubejs/client_scripts/farming_hud.js"
-hash = "e5860f9621d385b28961d1e4b0018c5ee9986741426796778cdbeb52f4725af6"
-
-[[files]]
-file = "kubejs/client_scripts/farming_tooltips.js"
-hash = "4bd88954dcd6aedb3cfdfe65d813b9ae26832da5cf88fc913fcd5676b661fd78"
-
-[[files]]
 file = "kubejs/client_scripts/tef_tooltips.js"
 hash = "9dc72c703dc9b08bf7730e0ad73108259cd4a1016c6cfd52f532114065a09599"
 
@@ -51,14 +43,6 @@ hash = "763cb66b9ea455c96e73b625a281d14e536eaddb792f8cfcad24fabbbd73d694"
 [[files]]
 file = "kubejs/server_scripts/tags.js"
 hash = "71615bdcbb6c3cfb7dc6ddb7718e44f9d10b0c1fea523d7980b0e299b5a89825"
-
-[[files]]
-file = "kubejs/startup_scripts/farming_core.js"
-hash = "096a0fa41f75f4c78f1f16ca4af79d364e1a124bc8350d0319ce573b6f96b9e8"
-
-[[files]]
-file = "kubejs/startup_scripts/farming_data.js"
-hash = "4ff9816ed448fa1f40685537a06d2cc890c9efe9675f5fe571c76499bb67f7ae"
 
 [[files]]
 file = "kubejs/startup_scripts/tef_core.js"

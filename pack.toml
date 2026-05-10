@@ -1,12 +1,12 @@
 name = "Meldworks"
 author = "Deveyus"
-version = "0.0.0-140fa9f"
+version = "0.0.0-458747d"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "213a5b1ed885867b7c896d1f78294ac8b0a0d1cfafe4b3a583a893f744a5fe8d"
+hash = "8a11ecaa09492091abc3f63b54790186faa259d810c2e63231202ec017ee68cf"
 
 [versions]
 minecraft = "1.21.1"
