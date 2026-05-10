@@ -535,6 +535,11 @@ hash = "b1234155f301b87aee2bce2847b593da1c38e9b1520b90ac9300126673ee2faf"
 metafile = true
 
 [[files]]
+file = "mods/research-station.pw.toml"
+hash = "15dea8cef45e466a986cb56381dca6d3258d835a7cf8d36e9f3d1ba67ef96608"
+metafile = true
+
+[[files]]
 file = "mods/rhino.pw.toml"
 hash = "75ff68dd0bfb30f2ff97f170ffbb74d5b6aaa791416c4a0559d09ac8778561ba"
 metafile = true
