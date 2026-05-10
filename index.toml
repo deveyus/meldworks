@@ -286,7 +286,7 @@ metafile = true
 
 [[files]]
 file = "mods/forgeendertech.pw.toml"
-hash = "2cdc83df7ae83f23dfede2c38abbbd46d8a73ab9994af03476f0b06c6229f089"
+hash = "41e52356b610ca16d87e6647926cdc7fd23db8c2508e92d2c6c8203fed924d41"
 metafile = true
 
 [[files]]
