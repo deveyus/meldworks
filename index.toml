@@ -33,18 +33,6 @@ file = "kubejs/server_scripts/example.js"
 hash = "54752631759d5725cfaa4a8cf6f3daad97d01fdb27144b07ad03f061818ffcf1"
 
 [[files]]
-file = "kubejs/server_scripts/farming_logic.js"
-hash = "95e3bc601e2523f889ae3f22f6d6e55277826a1cad4c99c5998f340b6d4c73cf"
-
-[[files]]
-file = "kubejs/server_scripts/recipes.js"
-hash = "763cb66b9ea455c96e73b625a281d14e536eaddb792f8cfcad24fabbbd73d694"
-
-[[files]]
-file = "kubejs/server_scripts/tags.js"
-hash = "71615bdcbb6c3cfb7dc6ddb7718e44f9d10b0c1fea523d7980b0e299b5a89825"
-
-[[files]]
 file = "kubejs/startup_scripts/tef_core.js"
 hash = "af29bec0585a99209f98938c4d251787896e18cc09ee0103ed95d65f7d87ea5a"
 

@@ -15,7 +15,7 @@ StartupEvents.registry('fluid', event => {
             .displayName(`${tier.name} TEF`)
             .stillTexture('minecraft:block/water_still')
             .flowingTexture('minecraft:block/water_flow')
-            .tint(tier.color)
+            .color(tier.color)
             .noBlock();
     });
     global.tefData = tefTiers;
